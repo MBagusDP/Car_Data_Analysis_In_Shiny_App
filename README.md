@@ -1,0 +1,2 @@
+# Car_Data_Analysis_In_Shiny_App
+This is the first proper shiny app that I have ever made by analyzing data obtained from Kaggle.com which goes by the name of "Car Features and MSRP". As one of the my capstone project fulfillment, I was assigned to make an interactive application which display useful information with minimum of 2 kinds of input to control the charts, an interactive charts which display information specifically when we hover the mouse on top of it, and a minimum of 3 tab menu.
