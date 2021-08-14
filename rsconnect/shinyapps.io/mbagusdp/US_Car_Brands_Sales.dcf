@@ -1,0 +1,13 @@
+name: US_Car_Brands_Sales
+title: US_Car_Brands_Sales
+username:
+account: mbagusdp
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4472188
+bundleId: 4904491
+url: https://mbagusdp.shinyapps.io/US_Car_Brands_Sales/
+when: 1628525877.80901
+lastSyncTime: 1628525877.80901
+asMultiple: FALSE
+asStatic: FALSE
