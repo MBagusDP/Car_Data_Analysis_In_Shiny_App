@@ -26,7 +26,7 @@ shinyUI(
                          tabName="data_tab"),
                 menuItem(text="Code",
                          icon=icon("code"),
-                         href="https://www.google.com")
+                         href="https://github.com/MBagusDP/Car_Data_Analysis_In_Shiny_App")
                 
             )
             
