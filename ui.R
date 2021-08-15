@@ -7,7 +7,63 @@ shinyUI(
         # HEADER OF THE DASHBOARD
         
         # Declare title
-        dashboardHeader(title = "Car Brands"),
+        dashboardHeader(title =  "Car Brands",
+                        
+                        dropdownMenu(type = "messages",
+                                     icon = icon("envelope", "fa-2x"),
+                                     headerText = "Feedback and Suggestions",
+                                     
+                                     messageItem(
+                                         
+                                         tags$style(".fa-envelope {color:deepskyblue}",
+                                                    ".fa-google {color:deepskyblue}"),
+                                         from = "Mohammad Bagus Dwi Putra",
+                                         message = "bagus.mbdp@gmail.com",
+                                         href = "mailto:bagus.mbdp@gmail.com",
+                                         icon = icon("google", "fa-2x")
+                                         
+                                     )
+                                     
+                        ),
+                        
+                        dropdownMenu(type = "messages",
+                                     icon = icon("share-alt", "fa-2x"),
+                                     headerText = "My Social Media",
+                                     
+                                     messageItem(
+                                         
+                                         tags$style(".fa-share-alt {color:deepskyblue}", 
+                                                    ".fa-github {color:deepskyblue}"),
+                                         from = "GitHub",
+                                         message = "MBagusDP",
+                                         href = "https://github.com/MBagusDP",
+                                         icon = icon("github", "fa-2x")
+                                         
+                                     ),
+                                     
+                                     messageItem(
+                                         
+                                         tags$style(".fa-r-project {color:deepskyblue}"),
+                                         from = "Rpubs",
+                                         message = "MBagusDP",
+                                         href = "https://rpubs.com/MBagusDP",
+                                         icon = icon("r-project", "fa-2x")
+                                         
+                                     ),
+                                     
+                                     messageItem(
+                                         
+                                         tags$style(".fa-linkedin {color:deepskyblue}"),
+                                         from = "LinkedIn",
+                                         message = "MBagusDP",
+                                         href = "https://www.linkedin.com/in/mbdp/",
+                                         icon = icon("linkedin", "fa-2x")
+                                         
+                                     )
+                                     
+                        )
+                        
+        ),
         
         # SIDEBAR OF THE DASHBOARD
         dashboardSidebar(
